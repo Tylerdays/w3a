@@ -1,0 +1,26 @@
+Header {
+    font-size: 20px;
+    color: blue;
+}
+Header>p {
+    font-size: 20px;
+    font-style: oblique;
+}
+header>img {
+    height: 60px;
+}
+Header+main {
+    font-family: monospace;
+}
+nav :link {
+    color: brown;
+}
+nav :visited {
+    color: aqua;
+}
+nav :hover {
+    color: green;
+}
+nav :active {
+    color: hotpink;
+}
