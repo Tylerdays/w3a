@@ -1,0 +1,36 @@
+@use "general";
+@import "variables";
+
+
+
+Header {
+    font-size: $testfont;
+    color: blue;
+    p{
+    font-style: oblique;
+    }
+    img{
+        height: $picheight;
+    }
+    main{
+        font-family: monospace;
+    }
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+nav :link {
+    color: brown;
+}
+nav :visited {
+    color: aqua;
+}
+nav :hover {
+    color: green;
+}
+nav :active {
+    color: hotpink;
+}

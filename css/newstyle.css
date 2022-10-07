@@ -1,0 +1,43 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  background-color: blanchedalmond;
+}
+
+Header {
+  font-size: 20px;
+  color: blue;
+}
+Header p {
+  font-style: oblique;
+}
+Header img {
+  height: 60px;
+}
+Header main {
+  font-family: monospace;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+nav :link {
+  color: brown;
+}
+
+nav :visited {
+  color: aqua;
+}
+
+nav :hover {
+  color: green;
+}
+
+nav :active {
+  color: hotpink;
+}/*# sourceMappingURL=newstyle.css.map */
